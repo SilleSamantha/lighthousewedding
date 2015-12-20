@@ -1,3 +1,32 @@
+.navbar-default .navbar-nav > li> a{
+    color: white;
+}
+
+.navbar-default, .navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+    color: chartreuse;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 40px;
+}
+
+.opaque-navbar.opaque {
+    background-color: #010001;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.6);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
 /*body*/
 
 .hero {
