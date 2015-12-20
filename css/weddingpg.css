@@ -1,0 +1,119 @@
+.hero {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100% ),
+    url(../img/waterview.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 50px;
+} 
+
+.hero p {
+    font-family: 'Poiret One', cursive;
+} 
+
+.hero h5 {
+    font-family: 'Josefin Sans', sans-serif;
+} 
+
+.hero h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.center-vertical {
+  padding: 90px;
+}
+
+.img-responsive {
+    display: inline;
+}
+
+.hero2{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero2 h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.hero2 p {
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.hero3 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.9) 100% ),
+    url(../img/bbcollage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: lightgray;
+    padding: 300px 100px;
+} 
+
+.hero3 h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.hero3 p{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+
+.video {
+    text-align: center;
+}
+
+.maps {
+    background-color: dimgrey;
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    
+    .hero p{
+        font-size: 8px;
+    }
+    
+    .maps h2 {
+        font-family: 'Kaushan Script', cursive;
+    }
+    
+    .maps p {
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .hero > div {
+        text-align: center;
+    }
+    .hero p {
+        font-size: 2em;
+    }
+    .hero h2 {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 3em;
+    }
+    
+    .hero3 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100% ),
+    url(../img/funcouple.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: lightgray;
+    padding: 300px 100px;
+}
+    
+    .hero3  {
+        color:white;
+        text-align: center;
+    }
+}
