@@ -1,3 +1,12 @@
+.navbar-default, .navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav {
+    color: #b76e79;
+}
+
 .opaque-navbar {
     background-color: rgba(0,0,0,0);
   /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
